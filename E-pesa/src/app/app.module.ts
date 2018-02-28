@@ -47,7 +47,9 @@ import {
 @NgModule({
   declarations: [
     AppComponent,
-    MatAutocompleteModule,
+  ],
+  imports: [
+    BrowserModule,
     MatButtonModule,
     MatButtonToggleModule,
     MatCardModule,
@@ -79,9 +81,7 @@ import {
     MatTabsModule,
     MatToolbarModule,
     MatTooltipModule,
-  ],
-  imports: [
-    BrowserModule,
+    MatAutocompleteModule,
     BrowserModule,
     BrowserAnimationsModule,
     FormsModule,
