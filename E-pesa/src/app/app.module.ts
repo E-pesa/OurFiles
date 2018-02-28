@@ -43,10 +43,12 @@ import {
   MatToolbarModule,
   MatTooltipModule,
 } from '@angular/material';
+import { NavbarComponent } from './component/navbar/navbar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    NavbarComponent,
   ],
   imports: [
     BrowserModule,
