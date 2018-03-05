@@ -1,3 +1,33 @@
-.card {
-    padding-top: 69px;
+.img{
+    border-radius: 25px;
+    background: rgb(244, 161, 252);
+    padding: 20px; 
+    width: 200px;
+    height: 150px;
 }
+.card{
+    background-image: url('https://mdbootstrap.com/img/Photos/Others/gradient2.png');
+    background-color: rgb(244, 161, 252);
+    margin: 50px auto;
+   
+    width: 150px;
+    height: 150px;
+}
+.img:hover {
+    transform: rotate(360deg);
+    background: #9351A6;
+    border-radius: 50%;
+  }
+  .rotate {
+    transition: all 0.5s ease-in-out;
+  }
+  .rotate:hover {
+    transition: all 1s ease-in-out;
+  }
+  .container:flex-center {
+      padding: 20px
+  }
+  items{
+      width: 300px;
+      height: 300px;
+  }

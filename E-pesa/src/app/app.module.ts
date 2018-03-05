@@ -10,6 +10,7 @@ import { SignupComponent } from './component/signup/signup.component';
 import {routing} from './app.routing';
 import { AboutComponent } from './component/about/about.component';
 import { TeamComponent } from './component/team/team.component';
+import { Employee1Component } from './component/employee1/employee1.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,6 +21,7 @@ import { TeamComponent } from './component/team/team.component';
     SignupComponent,
     AboutComponent,
     TeamComponent,
+    Employee1Component,
   ],
   imports: [
     BrowserModule,
